@@ -3,7 +3,7 @@ import asyncio
 import os
 from urllib import parse
 
-api_key = os.environ.get("API_KEY") or "1ea0e84a977be45a628d1c5da311a15f"
+api_key = os.environ.get("API_KEY")
 
 
 async def get_from_geo_api(city, country):
